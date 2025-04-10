@@ -1,5 +1,5 @@
-// attributes 
-const box  = document.querySelector(".box")
+// attributes
+const box = document.querySelector(".box");
 
 // box.setAttribute("id", "box1")
 // box.setAttribute("title" , "this is main b0x")
@@ -7,40 +7,38 @@ const box  = document.querySelector(".box")
 // console.log(box , res)
 // box.removeAttribute("id")
 
-
-
 // class
 
 // console.log(box.classList)
 // add
 // box.classList.add("mainboxxx")
 
-// contains 
+// contains
 // const r = box.classList.contains("box")
 // console.log(r)
 
 // replace
 // box.classList.replace("box1" , "box01")
 
-
-
 // remove
-
 
 // toogle
 // box.classList.toggle("box0001")
-
 
 // console.log(box.classList)
 
 // const body = document.querySelector("body")
 
-// create elements using js 
+// create elements using js
 // document
-const h4= document.createElement("h4") 
-{/* <h4></h4> */}
-h4.textContent = "using js to create h4"
-{/* <h4>using js to create h4</h4> */}
+const h4 = document.createElement("h4");
+{
+  /* <h4></h4> */
+}
+h4.textContent = "using js to create h4";
+{
+  /* <h4>using js to create h4</h4> */
+}
 
 // body.prepend(h4)
 // body.append(h4)
@@ -49,9 +47,7 @@ h4.textContent = "using js to create h4"
 // console.log(h4)
 // h4.remove()
 
-
-
-// adjacent 
+// adjacent
 // beforebegin  afterbegin , beforeend , afterend
 // box.insertAdjacentElement("beforebegin" , h4)
 
@@ -59,7 +55,7 @@ h4.textContent = "using js to create h4"
 // box.insertAdjacentElement("beforeend" , h4)
 // box.insertAdjacentElement("afterend" , h4)
 
-//  
+//
 
 // console.log("start")
 
@@ -77,12 +73,10 @@ h4.textContent = "using js to create h4"
 
 // })
 
-
 // console.log("end")
 
 // keyup , keydown
-window.addEventListener("keyup" ,  (e)=>{
-   box.textContent =   you pressed key  ${e.key}
+// window.addEventListener("keyup" ,  (e)=>{
+//    box.textContent =   you pressed key  ${e.key}
 
-
-})
+// })
