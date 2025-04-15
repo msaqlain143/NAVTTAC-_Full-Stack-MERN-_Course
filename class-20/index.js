@@ -1,6 +1,6 @@
 //promises
 
-const key = "f6a71c6a38ec5cb89b7b982df5964293";
+//const key = "f6a71c6a38ec5cb89b7b982df5964293";
 const input = document.getElementById("input");
 const button = document.getElementById("button");
 
