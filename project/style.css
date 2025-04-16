@@ -1,0 +1,50 @@
+/* css/style.css */
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    /* To contain rounded corners of the image */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure the image covers the area without distortion */
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Optional: Style for the icon placeholders */
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* style.css */
+/* ... your existing CSS ... */
+
+#userPreviewModal .modal-body .card {
+    /* Add specific styling for the preview card if needed */
+    max-width: 300px;
+    /* Example: Limit the maximum width of the preview card */
+    margin: 0 auto;
+    /* Example: Center the preview card in the modal */
+}
+
+#userPreviewModal .modal-body .card-img-top {
+    /* Further adjust the image style in the modal if needed */
+    max-height: 150px;
+    /* Example: Different max height for the preview image */
+}
